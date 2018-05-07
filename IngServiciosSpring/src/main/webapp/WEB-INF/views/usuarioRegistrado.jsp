@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registro</title>
+<title>Registro Correcto</title>
 </head>
 <body>
-<h1>El usuario ha sido registrado correctamente.</h1>
+<h1>El nuevo usuario ha sido registrado correctamente</h1>
 </body>		
 </html>
