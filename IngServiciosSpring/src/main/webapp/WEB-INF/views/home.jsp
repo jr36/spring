@@ -10,10 +10,8 @@
 <h1>Practica 1.4 de Spring</h1>
 <h2>Autenticacion</h2>
 <form action="Servlet1" method=post>
-Nombre: <input type=text name=user>
-<br>
-Contraseña: <input type=password name= pass>	
-<br>
+Usuario:<br> <input type="text" name="user" required><br>
+Clave: <br> <input type="password" name="pass" required><br>
 <input type=submit value=Continuar>
 </form>
 
