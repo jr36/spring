@@ -8,13 +8,13 @@
 </head>
 <body>
 <h1>Practica 1.4 de Spring</h1>
-<h2>Control de acceso</h2>
+<h2>Autenticacion</h2>
 <form action="Servlet1" method=post>
-Name: <input type=text name=username>
+Nombre: <input type=text name=user>
 <br>
-Password: <input type=password name= pass>	
+Contraseña: <input type=password name= pass>	
 <br>
-<input type=submit value=Iniciar>
+<input type=submit value=Continuar>
 </form>
 
 </body>
