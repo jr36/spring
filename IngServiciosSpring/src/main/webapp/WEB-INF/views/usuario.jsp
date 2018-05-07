@@ -10,17 +10,17 @@ pageEncoding="ISO-8859-1"%>
 <title>Usuario</title>
 </head>
 <body>
-<table border = "1">
+<table border = "3">
 <tr>
-<th> Nombre </th>
-<th> Password </th>
+<th> Usuario </th>
+<th> Contraseña </th>
 <th> Email </th>
 <th> DNI </th>
 </tr>
 <tr>
 <c:forEach items= "${lista}" var="list">
-<th><c:out value="${list.nombre}" /></th>
-<th><c:out value="${list.password}" /></th>
+<th><c:out value="${list.user}" /></th>
+<th><c:out value="${list.pass}" /></th>
 <th><c:out value="${list.email}" /></th>
 <th><c:out value="${list.dni}" /></th>
 </tr>
